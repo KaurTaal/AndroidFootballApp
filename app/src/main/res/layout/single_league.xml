@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/matchTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/league_single_component_title"
+        android:textSize="24sp"
+        android:textColor="@color/Gold"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/league_single_component_type" />
+
+    <TextView
+        android:id="@+id/match_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/league_single_component_match_day" />
+
+    <TextView
+        android:id="@+id/start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/league_single_component_start" />
+
+    <TextView
+        android:id="@+id/end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/league_single_component_end" />
+
+
+
+    <!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        >-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/authorImageView"-->
+<!--            android:layout_width="32sp"-->
+<!--            android:layout_height="32sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:src="@drawable/avatar"-->
+<!--            app:tint="@color/purple_200"-->
+<!--            android:contentDescription="@string/icon_of_author" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/recipeAuthorNameTextView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/recipe_placeholder_author"-->
+<!--            android:textStyle="italic" />-->
+<!--    </LinearLayout>-->
+</LinearLayout>

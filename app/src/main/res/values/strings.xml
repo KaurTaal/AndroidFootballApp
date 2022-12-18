@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Favourite Leagues</string>
+
+    <string name="match_placeholder_league_name">Placeholder Name</string>
+    <string name="match_placeholder_current_season">Current season</string>
+    <string name="match_placeholder_history">History</string>
+    <string name="match_placeholder_start">Placeholder Start Time</string>
+    <string name="match_placeholder_end">Placeholder End Time</string>
+    <string name="match_placeholder_matchday">Placeholder Matchday</string>
+    <string name="match_placeholder_standings">Standings</string>
+    <string name="match_placeholder_content">Lorem Ipsum Dolor Sit Amet</string>
+    <string name="new_match_button_contentdescription">New match Button</string>
+    <string name="save_match_button_contentdescription">Save match Button</string>
+    <string name="created_time_edittext_hint">Created on</string>
+    <string name="author_name_edittext_hint">Author Name</string>
+    <string name="match_description_edittext_hint">Match Description</string>
+    <string name="match_title_edittext_hint">Title</string>
+    <string name="new_league_title_textview">Select a league</string>
+    <string name="createdTimeEditTextHint">Created (DD/MM/YYYY)</string>
+    <string name="icon_of_author">Icon of author</string>
+
+
+    <string name="league_single_component_title">Title</string>
+    <string name="league_single_component_type">Type: %1$s!</string>
+    <string name="league_single_component_match_day">Match day: </string>
+    <string name="league_single_component_start">Start: </string>
+    <string name="league_single_component_end">End: </string>
+
+    <string name="club_single_component_position">%1$d. </string>
+    <string name="club_single_component_name">%1$s</string>
+    <string name="club_single_component_points">%1$d p</string>
+    <string name="club_single_component_wins">W: %1$d</string>
+    <string name="club_single_component_draws">D: %1$d</string>
+    <string name="club_single_component_losses">L: %1$d</string>
+
+</resources>
